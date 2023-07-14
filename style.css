@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#app, body{
+    height: 100vh;
+}
+
+#app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+
+    padding: 0 10rem;
+    
+}
+
+body{
+    background: url(./assets/Background.png) no-repeat  center/cover;
+}
+
+main{
+    max-width: 23..75rem;
+    color: #fff;
+} 
+
+h1{
+    font-size: 2.3rem;
+    line-height: 120%;
+}
+
+p{
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 140%;
+    font-weight: 300;
+}
+
+.button-wrapper{
+    margin-top: 3.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+
+    background: var(--blue, #151557);
+    border-radius: 62.4375rem;
+
+    color: var(--gary-02,#E2E2F5);
+
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+
+
+}
+
+.btn:hover{
+    background: var(--blue, #151557)
+}
+
+aside{
+    display: flex;
+    align-items: center;
+}
+
